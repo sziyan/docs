@@ -2,7 +2,7 @@
 share: true
 tags:
 created: 2025-09-25
-modified: 2025-09-25
+modified: 2026-01-28
 ---
 
 # Cronjob to dump postgres database
