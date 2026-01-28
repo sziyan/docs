@@ -1,7 +1,7 @@
 ---
 tags: tech/openshift
 created: 2024-12-22
-modified: 2025-06-22
+modified: 2026-01-28
 share: true
 ---
 
