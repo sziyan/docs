@@ -12,7 +12,7 @@ modified: 2026-01-29
 ---
 
 # About Me
-![[./99 - attachments/pikachu-bubbletea.jpg|300]]
+![[../99 - attachments/pikachu-bubbletea.jpg|300]]
 
 
 Hello! Welcome to my digital garden.
