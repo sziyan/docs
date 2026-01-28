@@ -2,12 +2,13 @@
 dg-publish: true
 dg-home: true
 share: true
+title: index
 tags:
   - blog
 cssclasses:
   - daily
 created: 2024-04-21
-modified: 2025-02-24
+modified: 2026-01-29
 ---
 
 # About Me
