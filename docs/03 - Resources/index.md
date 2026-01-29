@@ -1,9 +1,18 @@
 ---
+dg-publish: true
+dg-home: true
 share: true
+title: index
+tags:
+  - blog
+cssclasses:
+  - daily
+created: 2024-04-21
+modified: 2026-01-29
 ---
 
 # About Me
-![pikachu-bubbletea.jpg](pikachu-bubbletea.jpg)
+![[../99 - attachments/pikachu-bubbletea.jpg|300]]
 
 
 Hello! Welcome to my digital garden.
