@@ -12,7 +12,7 @@ share: true
 1. Verify the network interfaces available first by logging into OCP web console, or from nmtui into individual nodes
 2. Create NodeNetworkConfigurationPolicy for **each worker nodes**
    
-```yaml title=bond1-<node-name>-policy
+```yaml title=bond1-node-name-policy
 apiVersion: nmstate.io/v1
 kind: NodeNetworkConfigurationPolicy
 metadata:
