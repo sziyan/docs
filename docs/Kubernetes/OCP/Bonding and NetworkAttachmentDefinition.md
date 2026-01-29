@@ -11,6 +11,7 @@ share: true
 
 1. Verify the network interfaces available first by logging into OCP web console, or from nmtui into individual nodes
 2. Create NodeNetworkConfigurationPolicy for **each worker nodes**
+   
 ```yaml title=bond1-<node-name>-policy
 apiVersion: nmstate.io/v1
 kind: NodeNetworkConfigurationPolicy
@@ -47,7 +48,7 @@ spec:
 
 1. Create new namespace `oc create ns test-project`
 2. Create manifests for NAD
-```yaml title=test-ipvlan.yaml
+```yaml title=test-ipvlan.yaml hl=10
 apiVersion: k8s.cni.cncf.io/v1
 kind: NetworkAttachmentDefinition
 metadata:
