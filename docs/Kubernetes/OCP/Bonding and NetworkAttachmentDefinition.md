@@ -49,7 +49,7 @@ spec:
 1. Create new namespace `oc create ns test-project`
 2. Create manifests for NAD
    
-```yaml title=test-ipvlan.yaml hl_lines=10
+```yaml title="test-ipvlan.yaml" hl_lines=10,15
 apiVersion: k8s.cni.cncf.io/v1
 kind: NetworkAttachmentDefinition
 metadata:
