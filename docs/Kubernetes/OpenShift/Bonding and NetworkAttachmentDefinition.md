@@ -1,8 +1,7 @@
 ---
-tags: tech/openshift
-created: 2024-12-22
-modified: 2026-01-28
-share: true
+tags:
+  - tech
+  - openshift
 ---
 
 # Bonding and NetworkAttachmentDefinition
@@ -12,7 +11,7 @@ share: true
 1. Verify the network interfaces available first by logging into OCP web console, or from nmtui into individual nodes
 2. Create NodeNetworkConfigurationPolicy for **each worker nodes**
    
-```yaml
+```yaml title="bond1-node-name-policy"
 apiVersion: nmstate.io/v1
 kind: NodeNetworkConfigurationPolicy
 metadata:

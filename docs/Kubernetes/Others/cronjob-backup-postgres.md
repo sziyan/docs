@@ -1,8 +1,9 @@
 ---
-share: true
-tags:
-created: 2025-09-25
-modified: 2026-01-28
+title: Cronjob to backup postgres
+tags: 
+  - postgres
+  - backup
+  - automation
 ---
 
 # Cronjob to dump postgres database
